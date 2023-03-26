@@ -1,0 +1,14 @@
+[package]
+name = "startup"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "exec"
+path = "src/main.rs"
+
+[dependencies]
+subpackage_a = { "path" = "subpackage_a" }
+subpackage_b = { "path" = "subpackage_b" }

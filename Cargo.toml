@@ -10,5 +10,14 @@ name = "exec"
 path = "src/main.rs"
 
 [dependencies]
+dotenv = "0.15.0"
+serde = "1.0.130"
+serde_derive = "1.0.130"
+config = "0.13.2"
+clap = "4.1.13"
+sentry = "0.30.0"
+strum = "0.24"
+strum_macros = "0.24"
+
 subpackage_a = { "path" = "subpackage_a" }
 subpackage_b = { "path" = "subpackage_b" }
